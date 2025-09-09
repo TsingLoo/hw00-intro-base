@@ -5,7 +5,16 @@
 </p>
 <p align="center">(source: Ken Perlin)</p>
 
+# Overview
+
+![](images/chrome_Kg2kyFKeqm.gif)
+
+In this project I created the Cube class and applied some Perlin noise to the original fragment shader and added simple animation to the vertex shader. GUI allows users to control the `u_Color` parameter of the fragment shader in real-time. 
+
+I created a Minecraft stone and added the crack animation based on the Perlin noise. The this is the [link](https://tsingloo.github.io/hw00-intro-base/) to the live demo. Please let me know if the link fails.
+
 ## Objective
+
 - Check that the tools and build configuration we will be using for the class works.
 - Start learning Typescript and WebGL2
 - Practice implementing noise
@@ -52,7 +61,7 @@ Once your built code is pushed to `gh-pages`, Github can automatically publish a
   2. Scroll down to the Pages tab of the Settings (in the table on the left) and choose which branch to make the source for the deployed project. This should be the `gh-pages` branch which is automatically created after the first successful build of the `master` branch.
 
   3. Done! Now, any new commits on the `master` branch will be built and pushed to `gh-pages`. The project should be visible at http://username.github.io/repo-name.
- 
+
 
 To check if everything is on the right track:
 
