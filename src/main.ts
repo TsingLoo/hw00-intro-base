@@ -17,6 +17,7 @@ const controls = {
   u_Color: [255.0, 255.0, 255.0, 1.0]
 };
 
+
 let icosphere: Icosphere;
 let square: Square;
 let cube: Cube;
